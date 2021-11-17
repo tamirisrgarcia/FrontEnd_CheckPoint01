@@ -1,2 +1,2 @@
-CheckPoint apresentado à disciplina de Front End I.
-Autora: Tamiris R. G. Costa
+# CheckPoint apresentado à disciplina de Front End I - Certified Tech Developer
+## Autora: Tamiris R. G. Costa

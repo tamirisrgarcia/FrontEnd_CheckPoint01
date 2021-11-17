@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset=utf-8 >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="abcgomel">
+    <meta name="keywords" content="<% =paginaTags %>" >
+    <meta name="description" content="<% =paginaresumo %>" >
+    <meta name="robots" content="<% =paginaFollow %>" >
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="<% =Request.ServerVariables("SCRIPT_NAME") %>">
+    <meta property="og:title" content="<% =paginatituloresumido %>">
+    <meta property="og:site_name" content="<% =paginasitenome %>">
+    <meta property="og:description" content="<% =paginaresumo %>">
+    <meta property="og:image" content="<% =SiteRaiz %>/<% =paginaimagem %>">
+    <meta property="og:image:type" content="image/jpeg">
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
     
     <style>
